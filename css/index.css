@@ -17,12 +17,27 @@ ul {
   padding: 0;
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
 }
 
 a:hover{
   color: dodgerblue;
+}
+
+.nav {
+  padding: 7px;
+  margin-right: 10px;
+  border-right: 1px solid black;
+}
+
+.nav-links {
+  padding: 15px;
+  /* width: 25%; */
+  /* background-color: #f1f1f1; */
+  /* height: 100%; Full height */
+  /* position: fixed; Make it stick, even on scroll */
+  /* overflow: auto; Enable scrolling if the sidenav has too much content */
 }
 
 .main-container {
@@ -32,8 +47,24 @@ a:hover{
 
 .main {
   margin-left: 15px;
+  padding: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project {
+
+}
+
+.screenshot {
+  height: 60%;
+  width: 60%;
 }
 
 .footer {
-  
+
 }
