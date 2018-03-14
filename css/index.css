@@ -17,36 +17,50 @@ ul {
   padding: 0;
 }
 
-a:link, a:visited {
+a:link {
   text-decoration: none;
 }
 
-a:hover{
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
   color: dodgerblue;
 }
 
-.nav {
-  padding: 7px;
-  margin-right: 10px;
-  border-right: 1px solid black;
+h1, h2 {
+  color: #00766c;
 }
 
-.nav-links {
-  padding: 15px;
-  /* width: 25%; */
-  /* background-color: #f1f1f1; */
-  /* height: 100%; Full height */
-  /* position: fixed; Make it stick, even on scroll */
-  /* overflow: auto; Enable scrolling if the sidenav has too much content */
+/* NAVIGATION  */
+.sidebar {
+  background-color: #ffffff;
+  padding: 7px;
+  /* margin-right: 5%; */
+  border-left: 17px solid #26a69a;
+  height: 100vh;
+}
+
+.nav-list {
+  margin-top: 10px;
+  padding: 10px;
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+.nav-item {
+  margin-bottom: 10px;
 }
 
 .main-container {
   display: flex;
   padding: 7px;
+  background: #fafafa;
 }
 
-.main {
-  margin-left: 15px;
+main {
+  margin-left: 5%;
   padding: 10px;
 }
 
