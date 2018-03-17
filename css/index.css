@@ -93,6 +93,14 @@ section {
   margin-top: 20px;
 }
 
+span {
+  font-weight: bold;
+}
+
+.icon-link {
+  display: inline;
+}
+
 .screenshot {
   height: 60%;
   width: 60%;
