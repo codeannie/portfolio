@@ -11,12 +11,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #fafafa;
+  font-family: 'Average', serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+/* LINKS  */
 a:link {
   text-decoration: none;
 }
@@ -30,16 +36,39 @@ a:hover {
 }
 
 h1, h2 {
+  font-family: 'Fjalla One', sans-serif;
   color: #00766c;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* MAIN BODY */
+.main-container {
+  display: flex;
+  padding: 7px;
+  border-left: 17px solid #26a69a;
+  /* margin: 5%; */
+}
+
+main {
+  margin-left: 15%;
+  padding: 10px;
+}
+
+section {
+  margin-top: 20px;
 }
 
 /* NAVIGATION  */
 .sidebar {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 7px;
+  width: 15%;
+  position: fixed;
   /* margin-right: 5%; */
-  border-left: 17px solid #26a69a;
-  height: 100vh;
+  /* border-left: 17px solid #26a69a; */
 }
 
 .nav-list {
@@ -53,17 +82,7 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
-.main-container {
-  display: flex;
-  padding: 7px;
-  background: #fafafa;
-}
-
-main {
-  margin-left: 5%;
-  padding: 10px;
-}
-
+/* PROJECTS  */
 .projects {
   display: flex;
   flex-direction: column;
@@ -71,7 +90,7 @@ main {
 }
 
 .project {
-
+  margin-top: 20px;
 }
 
 .screenshot {
