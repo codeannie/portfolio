@@ -14,6 +14,7 @@
 body {
   background: #fafafa;
   font-family: 'Average', serif;
+  font-size: 18px;
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
 /* LINKS  */
 a:link {
   text-decoration: none;
+  color: #00766c;
 }
 
 a:visited {
@@ -61,20 +63,24 @@ section {
   margin-top: 20px;
 }
 
+p, h3 {
+  margin-bottom: 10px;
+}
+
 /* NAVIGATION  */
 .sidebar {
-  /* background-color: #ffffff; */
   padding: 7px;
   width: 15%;
   position: fixed;
-  /* margin-right: 5%; */
-  /* border-left: 17px solid #26a69a; */
+  overflow-x: hidden;
 }
 
 .nav-list {
   margin-top: 10px;
   padding: 10px;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
   overflow: auto;
 }
 
@@ -82,19 +88,24 @@ section {
   margin-bottom: 10px;
 }
 
+.intro-blurb {
+  margin-top: 10px;
+}
 /* PROJECTS  */
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center;
+  align-content: center; */
 }
 
 .project {
   margin-top: 20px;
+  width: 70%;
 }
 
 span {
-  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .icon-link {
@@ -102,8 +113,10 @@ span {
 }
 
 .screenshot {
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
+  border: 2px black solid;
+  margin-bottom: 10px;
 }
 
 .footer {
