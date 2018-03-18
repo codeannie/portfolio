@@ -55,7 +55,7 @@ h3 {
 }
 
 main {
-  margin-left: 15%;
+  /* margin-left: 15%; */
   padding: 10px;
 }
 
@@ -69,10 +69,12 @@ p, h3 {
 
 /* NAVIGATION  */
 .sidebar {
+  flex-basis: 25%;
   padding: 7px;
-  width: 15%;
-  position: fixed;
-  overflow-x: hidden;
+  /* width: 15%; */
+  /* margin-left: 5%; */
+  /* position: fixed; */
+  /* overflow-x: hidden; */
 }
 
 .nav-list {
@@ -90,18 +92,14 @@ p, h3 {
 
 .intro-blurb {
   margin-top: 10px;
+  max-width: 70%
 }
+
 /* PROJECTS  */
-.projects {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center;
-  align-content: center; */
-}
 
 .project {
   margin-top: 20px;
-  width: 70%;
+  max-width: 70%;
 }
 
 span {
@@ -117,8 +115,4 @@ span {
   width: 80%;
   border: 2px black solid;
   margin-bottom: 10px;
-}
-
-.footer {
-
 }
