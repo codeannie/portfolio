@@ -1,7 +1,21 @@
-/* for desktop  */
+/* for mobile screen */
 
-@media (min-width: 700px) {
+@media screen and (max-width: 750px) {
+  main {
+    margin: 0;
+  }
+
   .main-container {
-    
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .intro-blurb, .project {
+    max-width: 100%;
+  }
+
+  .screenshots {
+    height: 100%;
+    width: 100%;
   }
 }
