@@ -10,6 +10,17 @@
     justify-content: center;
   }
 
+  .sidebar {
+    /* margin: 0 auto; */
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+
+  .nav-item {
+    display: inline;
+    margin-right: 10px;
+  }
+
   .intro-blurb, .project {
     max-width: 100%;
   }
