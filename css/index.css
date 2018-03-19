@@ -51,11 +51,9 @@ h3 {
   display: flex;
   padding: 7px;
   border-left: 17px solid #26a69a;
-  /* margin: 5%; */
 }
 
 main {
-  /* margin-left: 15%; */
   padding: 10px;
 }
 
@@ -75,16 +73,11 @@ p, h3 {
 .sidebar {
   flex-basis: 25%;
   padding: 7px;
-  /* width: 15%; */
-  /* margin-left: 5%; */
-  /* position: fixed; */
-  /* overflow-x: hidden; */
 }
 
 .nav-list {
   margin-top: 10px;
   padding: 10px;
-  /* flex: 1 1 auto; */
   font-family: 'Fjalla One', sans-serif;
   font-size: 18px;
   overflow: auto;
