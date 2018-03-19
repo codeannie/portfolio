@@ -1,123 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Annie Chiang</title>
-    <meta charset="UTF-8">
-    <meta description="web developer in Los Angeles">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/media-query.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average|Fjalla+One">
+  
+<head>
+  <title>Annie Chiang</title>
+  <meta charset="UTF-8">
+  <meta description="web developer in Los Angeles">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  </head>
-  <body>
-    <div class="main-container">
-      <!-- navigation  -->
-      <nav class="sidebar" role="navigation">
-        <ul class="nav-list">
-          <li class="nav-item"> 
-            <a href="#about"> About Me </a> 
-          </li>
-          <li class="nav-item"> 
-            <a href="https://github.com/codeannie" target="_blank"> 
-              <i class="fab fa-github fa-2x" aria-hidden="true"></i> GitHub </a>
-          </li>
-          <li class="nav-item"> 
-            <a href="mailto:devbear22@gmail.com"> 
-              <i class="far fa-envelope fa-2x" aria-hidden="true"></i> E-Mail Me </a>
-          </li>
-        </ul>
-      </nav>
-      <main role="main">
-        <section id="about" class="intro">
-          <h1>Hello, I'm Annie!</h1>
-          <p class="intro-blurb"> 
-            I'm a full-stack developer in Los Angeles, CA. 
-            I have a background in K-12 education and in healthcare IT.   
-          </p>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/media-query.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average|Fjalla+One">
 
-          <p class="intro-blurb">When I'm not at work, I'm either training jiu jitsu, Machida Karate, or playing Japanese taiko.</p>
-        </section>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
 
-        <section class="technologies">
-          <h2>Technologies/Languages</h2>
-          <p class="front-end"> <span>Frontend:</span> HTML/CSS, JavaScript, jQuery, React & Redux </p>
-          <p class="back-end"> <span>Backend:</span> Node, Express, MongoDB & Mongoose </p>
-          <p class="devOps"> <span>Dev Ops: </span> Travis CI, Heroku, GitHub, Netlify, Chai, Mocha, Jest & Enzyme </p>
-        </section>
+<body>
+  <div class="main-container">
+    <!-- navigation  -->
+    <nav class="sidebar" role="navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#about"> About Me </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/codeannie" target="_blank">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i> GitHub </a>
+        </li>
+        <li class="nav-item">
+          <a href="mailto:devbear22@gmail.com">
+            <i class="far fa-envelope fa-2x" aria-hidden="true"></i> E-Mail Me </a>
+        </li>
+      </ul>
+    </nav>
+    <main role="main">
+      <section id="about" class="intro">
+        <h1>Hello, I'm Annie!</h1>
+        <p class="intro-blurb">
+          I'm a full-stack developer in Los Angeles, CA.
+        </p>
+        <p class="intro-blurb"> 
+          I have a background in K-12 education and in healthcare IT. 
+        </p>
 
-        <!-- about me  -->
-        <!-- <section class="about-me"></section>
+        <p class="intro-blurb">When I'm not coding/working, I'm usually on the mats at
+          <a href="https://gracieuniversity.com/" target="_blank">jiu jitsu</a>,
+          <a href="http://www.machidakarate.com/" target="_blank"> Machida Karate</a>, or playing Japanese taiko in Little Tokyo.
+        </p>
+
+      </section>
+
+      <section class="technologies">
+        <h2>Technologies/Languages</h2>
+        <p class="front-end">
+          <span>Frontend:</span> HTML/CSS, JavaScript, jQuery, React & Redux </p>
+        <p class="back-end">
+          <span>Backend:</span> Node, Express, MongoDB & Mongoose </p>
+        <p class="devOps">
+          <span>Dev Ops: </span> Travis CI, Heroku, GitHub, Netlify, Chai, Mocha, Jest & Enzyme </p>
+        <p class="tech-misc"> Not limited to the above... There's always more to learn!</p>
+      </section>
+
+      <!-- about me  -->
+      <!-- <section class="about-me"></section>
           <p class="about-me"></p> -->
-        <!-- projects  -->
-        <section class="projects">
-          <h2> Projects </h2>
-          <article class="project">
-            <a href="https://track-life.herokuapp.com"> 
-              <img src="assets/TrackLife_Dashboard.jpg" class="screenshot" alt="Habit and routine tracker app">
-            </a>
-            <h3 class="app-name"> Track-Life </h3>
-            <p class="project-description"> Track-Life is an app to keep track of routines, habits, and goals. Use it to fit your needs. Inspired by paper journal version of what I do. </p>
-            <p class="stack"> <span>Stack:</span> HTML/CSS, JavaScript, jQuery, Node, Express, Mocha, Chai, MongoDB </p>
-            <ul class="icon-links">
-              <li class="icon-link"> 
-                <a href="https://github.com/codeannie/track-life">
-                  <i class="fab fa-github fa-2x" aria-hidden="true"></i> Repo </a>
-              </li>
-              <li class="icon-link">
-                <a href="https://track-life.herokuapp.com">
-                  <i class="fas fa-rocket fa-2x" aria-hidden="true"></i> App </a>
-              </li>
-            </ul>
-          </article>
-          <article class="project">
-            <a href="https://guestbook.netlify.com"> 
-              <img src="assets/GuestBook_Landing.jpg" class="screenshot" alt="Habit and routine tracker app">
-            </a>
-            <h3 class="app-name"> Guest Book </h3>
-            <p class="project-description"> Guest Book was inspired by the # of weddings, birthdays and events I have to attend. This organizes events and guest lists with contact information. </p>
-            <p class="stack"> <span>Stack:</span> React, Redux, Aphrodite, Node, Express, MongoDB </p>
-            <ul class="icon-links">
-              <li class="icon-link"> 
-                <a href="https://github.com/codeannie/guestbook-client">
-                  <i class="fab fa-github fa-2x" aria-hidden="true"></i> Client </a>
-              </li>
-              <li class="icon-link"> 
-                  <a href="https://github.com/codeannie/guestbook-api2">
-                    <i class="fab fa-github fa-2x" aria-hidden="true"></i> API </a>
-                </li>
-              <li class="icon-link">
-                <a href="https://guestbook.netlify.com">
-                  <i class="fas fa-rocket fa-2x" aria-hidden="true"></i> App </a>
-              </li>
-            </ul>
-          </article>
-            <article class="project">
-              <a href="https://github.com/codeannie/inspire-travel"> 
-                <img src="assets/InspireTravel_Landing.jpg" class="screenshot" alt="Get a feel of a travel destination">
-              </a>
-              <h3 class="app-name"> Inspire Travel </h3>
-              <p class="project-description"> Inspire Travel is a web app that provides a small window into a potential travel destination. See the time, weather and photos to get inspired! </p>
-              <p class="stack"> <span>Stack:</span> HTML/CSS, JavaScript, jQuery </p>
-              <ul class="icon-links">
-                <li class="icon-link"> 
-                  <a href="https://github.com/codeannie/inspire-travel">
-                    <i class="fab fa-github fa-2x" aria-hidden="true"></i> Repo </a>
-                </li>
-                <li class="icon-link">
-                  <a href="https://codeannie.github.io/inspire-travel/">
-                    <i class="fas fa-rocket fa-2x" aria-hidden="true"></i> App </a>
-                </li>
-              </ul>
-            </article>
-        </section>
-      </main>
-    </div>
-  </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/index.js"></script>
+      <!-- projects  -->
+      <section class="projects">
+        <h2> Projects </h2>
+        <article class="project">
+          <a href="https://track-life.herokuapp.com">
+            <img src="assets/TrackLife_Dashboard.jpg" class="screenshot" alt="Habit and routine tracker app">
+          </a>
+          <h3 class="app-name"> Track-Life </h3>
+          <p class="project-description"> Track-Life is an app to keep track of routines, habits, and goals. Use it to fit your needs. Inspired by paper
+            journal version of what I do. </p>
+          <p class="stack">
+            <span>Stack:</span> HTML/CSS, JavaScript, jQuery, Node, Express, Mocha, Chai, MongoDB </p>
+          <ul class="icon-links">
+            <li class="icon-link">
+              <a href="https://github.com/codeannie/track-life">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i> Repo </a>
+            </li>
+            <li class="icon-link">
+              <a href="https://track-life.herokuapp.com">
+                <i class="fas fa-rocket fa-2x" aria-hidden="true"></i> App </a>
+            </li>
+          </ul>
+        </article>
+        <article class="project">
+          <a href="https://guestbook.netlify.com">
+            <img src="assets/GuestBook_Landing.jpg" class="screenshot" alt="Habit and routine tracker app">
+          </a>
+          <h3 class="app-name"> Guest Book </h3>
+          <p class="project-description"> Guest Book was inspired by the # of weddings, birthdays and events I have to attend. This organizes events and
+            guest lists with contact information. </p>
+          <p class="stack">
+            <span>Stack:</span> React, Redux, Aphrodite, Node, Express, MongoDB </p>
+          <ul class="icon-links">
+            <li class="icon-link">
+              <a href="https://github.com/codeannie/guestbook-client">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i> Client </a>
+            </li>
+            <li class="icon-link">
+              <a href="https://github.com/codeannie/guestbook-api2">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i> API </a>
+            </li>
+            <li class="icon-link">
+              <a href="https://guestbook.netlify.com">
+                <i class="fas fa-rocket fa-2x" aria-hidden="true"></i> App </a>
+            </li>
+          </ul>
+        </article>
+        <article class="project">
+          <a href="https://github.com/codeannie/inspire-travel">
+            <img src="assets/InspireTravel_Landing.jpg" class="screenshot" alt="Get a feel of a travel destination">
+          </a>
+          <h3 class="app-name"> Inspire Travel </h3>
+          <p class="project-description"> Inspire Travel is a web app that provides a small window into a potential travel destination. See the time, weather
+            and photos to get inspired! </p>
+          <p class="stack">
+            <span>Stack:</span> HTML/CSS, JavaScript, jQuery </p>
+          <ul class="icon-links">
+            <li class="icon-link">
+              <a href="https://github.com/codeannie/inspire-travel">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i> Repo </a>
+            </li>
+            <li class="icon-link">
+              <a href="https://codeannie.github.io/inspire-travel/">
+                <i class="fas fa-rocket fa-2x" aria-hidden="true"></i> App </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 </html>
