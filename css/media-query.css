@@ -12,6 +12,8 @@
 
   .sidebar {
     padding: 0;
+    position: relative;
+    width: auto;
     border-bottom: 1px solid black;
   }
 

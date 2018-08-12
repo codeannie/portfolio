@@ -42,6 +42,11 @@ h1, h2 {
   color: #00766c;
 }
 
+h1 {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
 h3 {
   font-family: 'Fjalla One', sans-serif;
 }
@@ -55,10 +60,11 @@ h3 {
 
 main {
   padding: 10px;
+  margin-left: 160px;
 }
 
 section {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p, h3 {
@@ -71,6 +77,11 @@ p, h3 {
 
 /* NAVIGATION  */
 .sidebar {
+  position: fixed;
+  height: 100%;
+  width: 160px;
+  top: 0;
+  overflow-x: hidden;
   flex-basis: 25%;
   padding: 7px;
 }
@@ -79,7 +90,7 @@ p, h3 {
   margin-top: 10px;
   padding: 10px;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   overflow: auto;
 }
 
@@ -89,7 +100,8 @@ p, h3 {
 
 .intro-blurb {
   margin-top: 10px;
-  max-width: 70%
+  max-width: 70%;
+  /* font-size: 20px; */
 }
 
 /* PROJECTS  */
